@@ -82,8 +82,8 @@ For example, the 3 photos below show the TTC lidar estimation from 3 consecutive
 we can notice also the lidar point cloud is not always concentrated in the rear of the vehicle and also the depth span of the points in the X direction is not small which also causes some errors when calculating the average distance.    
 
 <img src="images/AKAZE _ BRIEF0002.jpg" width="900" height="300" />
-<img src="images/AKAZE_BRIEF0003.jpg" width="900" height="300" />
-<img src="images/AKAZE_BRIEF0004.jpg" width="900" height="300" />
+<img src="images/AKAZE _ BRIEF0003.jpg" width="900" height="300" />
+<img src="images/AKAZE _ BRIEF0004.jpg" width="900" height="300" />
 
 Depth span of the points in the X direction.
 
@@ -108,9 +108,9 @@ To Evaluate the TTC camera estimation we used different combinations from (detec
 
  Here is an example of using AKAZE/FREAK in 3 consecutive frames.
 
- <img src="images/AKAZE_FREAK0012.jpg" width="900" height="300" />
- <img src="images/AKAZE_FREAK0013.jpg" width="900" height="300" />
- <img src="images/AKAZE_FREAK0014.jpg" width="900" height="300" />
+ <img src="images/AKAZE _ FREAK0012.jpg" width="900" height="300" />
+ <img src="images/AKAZE _ FREAK0013.jpg" width="900" height="300" />
+ <img src="images/AKAZE _ FREAK0014.jpg" width="900" height="300" />
 
 
 

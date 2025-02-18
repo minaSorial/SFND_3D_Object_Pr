@@ -21,7 +21,7 @@ In this final project, you will implement the missing parts in the schematic. To
   * Weight files are handled using [LFS](https://git-lfs.github.com/)
   * Install Git LFS before cloning this Repo.
 * OpenCV >= 4.1
-  * This must be compiled from source using the `-D OPENCV_ENABLE_NONFREE=ON` cmake flag for testing the SIFT and SURF detectors.
+  * This must be compiled from the source using the `-D OPENCV_ENABLE_NONFREE=ON` cmake flag for testing the SIFT and SURF detectors.
   * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
 * gcc/g++ >= 5.4
   * Linux: gcc / g++ is installed by default on most Linux distros
@@ -79,9 +79,9 @@ Many factors can induce faulty measurement of distance thus faulty estimation of
 
 However, after taking this solution into consideration the TTC estimation using lidar points doesn't usually produce stable/robust estimations.
 For example, the 3 photos below show the TTC lidar estimation from 3 consecutive frames it not stable.
-we can notice also the lidar point cloud is not always concentrated in the rear of the vehicle and also the depth span of the points in the X direction is not small that also cause some erros when caluclating the average distance.    
+we can notice also the lidar point cloud is not always concentrated in the rear of the vehicle and also the depth span of the points in the X direction is not small which also causes some errors when calculating the average distance.    
 
-<img src="images/AKAZE_BRIEF0002.jpg" width="900" height="300" />
+<img src="images/AKAZE _ BRIEF0002.jpg" width="900" height="300" />
 <img src="images/AKAZE_BRIEF0003.jpg" width="900" height="300" />
 <img src="images/AKAZE_BRIEF0004.jpg" width="900" height="300" />
 
